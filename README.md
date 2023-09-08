@@ -12,8 +12,11 @@
 </div>
 
 <p align="center"> A simple application to query a cnpj
+  <div align="center">
+    
   ![image](https://github.com/maikehenrique/Consulta-Cnpj/assets/54610589/f143531f-9647-4d4a-b664-f4ac87649d8a)
     <br> 
+  </div>
 </p>
 
 ## 📝 Table of Contents
