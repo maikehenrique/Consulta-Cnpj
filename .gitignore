@@ -1,0 +1,57 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+[Dd]ebug/
+[Dd]ist/
+bin/
+obj/
+
+# User-specific files
+.vs/
+.vscode/
+.idea/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer packages
+*.exe
+*.dll
+*.pdb
+
+# User-specific files for Visual Studio for Mac
+.vscode/
+
+# ASP.NET Scaffolding
+Scaffolding/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Core
+wwwroot/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Microsoft Visual Studio for Mac config folder
+.vscode/
+
+# Rider
+.idea/
+
+# User-specific files
+# JetBrains Rider
+.idea/
+
+# User-specific files for Visual Studio for Mac
+.vscode/
