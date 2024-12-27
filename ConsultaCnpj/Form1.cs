@@ -47,8 +47,15 @@ namespace ConsultaCnpj
                 RestResponse response = await client.ExecuteAsync(request);
 
                 Empresa empresa = JsonConvert.DeserializeObject<Empresa>(response.Content);
-                preencherDadosEmpresa(empresa);
-                inputCnpj.TextMaskFormat = MaskFormat.IncludeLiterals;
+                if (empresa.error != null)
+                {
+                    MessageBox.Show(empresa.error);
+                }
+                else
+                {
+                    preencherDadosEmpresa(empresa);
+                    inputCnpj.TextMaskFormat = MaskFormat.IncludeLiterals;
+                }
             }
             catch (Exception ex) {
                 MessageBox.Show("Não foi possível buscar o CNPJ informado."+ex.Message);

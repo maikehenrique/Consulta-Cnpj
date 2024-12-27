@@ -38,5 +38,6 @@ namespace ConsultaCnpj
         public string BAIRRO { get; set; }
         public string MUNICIPIO { get; set; }
         public string UF { get; set; }
+        public string error { get; set; }
     }
 }
